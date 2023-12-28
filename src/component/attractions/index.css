@@ -1,0 +1,20 @@
+.attract__block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.attract__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.attract__link {
+  color: #000;
+  cursor: pointer;
+  transition: opacity 0.7s;
+  &:hover {
+    opacity: 0.5;
+  }
+}

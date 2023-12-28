@@ -1,0 +1,36 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.info__sub-block {
+  display: flex;
+  gap: 16px;
+  padding-top: 26px;
+}
+
+.info__sub-value {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.info__sub-value:not(:last-child)::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 4px;
+  border-radius: 4px;
+  background-color: #000;
+}
+
+.image {
+  display: block;
+  position: absolute;
+  border-radius: 40px;
+}
+
+.info-part {
+  padding-left: 100px;
+}
